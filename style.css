@@ -142,3 +142,9 @@ img {
 	color: var(--text-color-primary-800);
 	font-weight: var(--font-weight-m);
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 0 var(--space-12);
+  }
+}
